@@ -1,0 +1,66 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.navbar {
+    background-color: #0000ff;
+
+    .container-fluid {
+        width: 50vw;
+    }
+
+    .nav-link {
+        font-size: 1em;
+        font-weight: 600;
+        color: #fff;
+        margin: 0.7em;
+        cursor: pointer;
+    }
+
+    .btn {
+        border-radius: 999px;
+        margin: 0 0.5em;
+        padding: 0.2rem 1.5rem;
+        background-color: #fff;
+        font-weight: 600;
+    }
+
+    .solid-color {
+        color: #fff;
+        background-color: #f68b2d;
+    }
+    .gradient-color {
+        background: linear-gradient(
+            90deg,
+            hsla(182, 64%, 53%, 1) 0%,
+            hsla(34, 95%, 64%, 1) 0%,
+            hsla(323, 100%, 75%, 1) 100%
+        );
+    }
+    .search-bar {
+        background-color: #fff;
+        border-radius: 999px;
+        width: 100%;
+
+        .form-control {
+            border: none;
+            border-radius: 999px;
+            padding: 0 1.5em;
+        }
+    }
+
+    .dropdown {
+        .dropdown-menu {
+            .dropdown:hover .dropdown-menu {
+                display: block;    
+            }
+            
+        }
+    }
+}
